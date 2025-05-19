@@ -4,13 +4,10 @@ import Html from '../../assets/1051277.png';
 import Css from '../../assets/Css.png';
 import Javascript from '../../assets/js.png';
 import react from '../../assets/react.png';
-import Node from '../../assets/node.png';
-import Mongodb from '../../assets/mongodb.png';
-import python from '../../assets/phython.png';
+// import Node from '../../assets/node.png';       // Node.js ke liye ye bhi hata diya (agar image missing ho toh)
+ // import Mongodb from '../../assets/mongodb.png'; // MongoDB ke liye bhi hata diya
+// import python from '../../assets/phython.png';   // Ye hata diya (image missing error aata hai)
 import sql from '../../assets/Sql.png';
-
-
-
 
 const Hero = () => {
   return (
@@ -57,26 +54,7 @@ const Hero = () => {
               </a>
             </div>
 
-            {/* Node.js */}
-            {/* <div className='tech-icon'>
-              <a href="https://nodejs.org/en/docs" target="_blank" rel="noopener noreferrer">
-                <img src={Node} alt='nodejslogo' />
-              </a>
-            </div> */}
-
-            {/* MongoDB */}
-            {/* <div className='tech-icon'>
-              <a href="https://www.mongodb.com/docs/" target="_blank" rel="noopener noreferrer">
-                <img src={Mongodb} alt='mongodblogo' />
-              </a>
-            </div> */}
-
-            {/* Python */}
-            <div className='tech-icon'>
-              <a href="https://docs.python.org/3/" target="_blank" rel="noopener noreferrer">
-                <img src={python} alt='pythonlogo' />
-              </a>
-            </div>
+            {/* Python hata diya kyunki image missing thi */}
 
             {/* SQL */}
             <div className='tech-icon'>
@@ -92,3 +70,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
